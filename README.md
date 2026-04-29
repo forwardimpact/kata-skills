@@ -1,7 +1,7 @@
 # Kata Skills
 
-Agent skills for [Forward Impact](https://forwardimpact.team) repo
-self-maintenance. Install with
+Agent skills for the [Forward Impact](https://forwardimpact.team)
+Kata Agent Team. Install with
 [npx skills](https://github.com/vercel-labs/skills):
 
 ```bash
