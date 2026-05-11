@@ -5,6 +5,10 @@ description: >
   creation, secret configuration, agent selection, and generates workflow
   files. Use when setting up a new Kata installation or adding agents to
   an existing one.
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Set Up the Kata Agent Team

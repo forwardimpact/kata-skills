@@ -6,6 +6,10 @@ description: >
   spawns a fresh sub-agent for an independent review of its work. This skill
   never spawns sub-agents — it produces findings only — which structurally
   prevents the spec/design/plan/implement review loop from recursing.
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Review

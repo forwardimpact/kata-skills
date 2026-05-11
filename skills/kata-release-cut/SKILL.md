@@ -4,6 +4,10 @@ description: >
   Cut new versions of packages with unreleased changes on main. Determine
   version bumps, update package.json files, tag releases, push tags, and verify
   publish workflows. Canonical source for the release procedure.
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Release Cut

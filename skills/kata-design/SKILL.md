@@ -6,6 +6,10 @@ description: >
   key decisions with trade-offs — that gives reviewers a high-leverage point
   to redirect architecture before the full plan is written. Design is approved
   when its PR carries the `design:approved` label or an APPROVED review.
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Write and Review Designs

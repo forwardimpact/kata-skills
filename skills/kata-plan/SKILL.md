@@ -5,6 +5,10 @@ description: >
   approved design into concrete steps, file changes, sequencing, and risks
   for a trusted agent to execute. Plan is approved when its PR carries the
   `plan:approved` label or an APPROVED review.
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Write and Review Plans

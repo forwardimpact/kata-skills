@@ -5,6 +5,10 @@ description: >
   repository policies, review npm audit findings, and action dependency
   vulnerabilities. Merge PRs that pass all checks, fix minor issues on a new
   branch, or close PRs that violate policy.
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Security Update
