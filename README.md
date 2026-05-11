@@ -19,9 +19,9 @@ dependencies:
     - forwardimpact/kata-skills
 ```
 
-Then `apm install` deploys the skills and agents to your active client
-(Claude Code, Copilot, Cursor, OpenCode, Codex, or Gemini). To pull a single
-primitive, reference it by path:
+Then `apm install` deploys the skills and agents to your active
+client (Claude Code, Copilot, Cursor, OpenCode, Codex, or Gemini).
+To pull a single primitive, reference it by path:
 
 ```yaml
 dependencies:
@@ -59,4 +59,5 @@ dependencies:
 | **product-manager** | Repository product manager. Triages open issues against the product vision, reviews spec quality, and writes specs for product-aligned requests. Spec quality is signaled to the merge gate via the `spec:approved` PR label. |
 | **release-engineer** | Repository release engineer. Verifies contributor trust, gates PRs into main via `kata-release-merge`, cuts releases via `kata-release-cut`, and facilitates `agent-react` dispatch. Sole external merge point. |
 | **security-engineer** | Repository security engineer. Applies security updates, triages Dependabot pull requests, audits supply chain and application security, and enforces dependency and CI policies. |
+| **staff-engineer** | Repository staff engineer. Owns the full spec → design → plan → implement arc for approved specs: turns spec.md into an architectural design, then an execution-ready plan, then executes the plan step by step. |
 | **technical-writer** | Repository technical writer. Reviews documentation for accuracy and staleness, curates agent memory for cross-team collaboration, and ensures the wiki remains a reliable coordination mechanism. |

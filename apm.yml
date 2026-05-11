@@ -1,8 +1,8 @@
 name: kata-skills
-version: 1.0.0
+version: 0.1.0
 description: >-
-  Forward Impact Kata Agent Team — five domain agents and sixteen skills for
-  the spec → design → plan → implement workflow, releases, security, and
+  Forward Impact Kata Agent Team — domain agents and skills for the
+  spec → design → plan → implement workflow, releases, security, and
   product-issue triage.
 author: forwardimpact
 license: Apache-2.0

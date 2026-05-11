@@ -7,7 +7,7 @@ description: >
   an existing one.
 license: Apache-2.0
 metadata:
-  version: "1.0.0"
+  version: "0.1.0"
   author: forwardimpact
 ---
 
