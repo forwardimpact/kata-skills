@@ -6,6 +6,10 @@ description: >
   Ask/Answer/Announce orchestration tools. Same five coaching kata questions
   across team storyboard meetings and 1-on-1 coaching sessions; mode-specific
   guidance lives in references/team-storyboard.md and references/one-on-one.md.
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Kata Session

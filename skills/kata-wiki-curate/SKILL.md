@@ -6,6 +6,10 @@ description: >
   update MEMORY.md, and clean log hygiene. Use when running scheduled wiki
   curation, auditing agent memory health, or checking cross-agent
   communication.
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Wiki Curation

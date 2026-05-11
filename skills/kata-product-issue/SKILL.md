@@ -5,6 +5,10 @@ description: >
   trivial fix, product-aligned spec, or out-of-scope, and produce a report
   the agent acts on. Operates on issues only — PR mergeability is
   kata-release-merge.
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Product Issue Triage

@@ -6,6 +6,10 @@ description: >
   implementation. Triggers: "implement spec NNN", "implement the plan for
   spec NNN", "execute plan NNN", "build spec NNN", "start implementation of
   NNN".
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Implement Spec

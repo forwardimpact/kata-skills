@@ -5,6 +5,10 @@ description: >
   supply chain, dependency hygiene, credential leak controls, CI audit gates,
   and application-level vulnerabilities. Use when reviewing PRs for security
   impact, auditing the repo posture, or investigating a reported vulnerability.
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Security Audit

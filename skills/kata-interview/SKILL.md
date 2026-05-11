@@ -5,6 +5,10 @@ description: >
   one of the product's Jobs To Be Done, build the persona from that JTBD
   entry alone, hand the job to the agent at the public website, and capture
   findings as GitHub issues classified against the chosen job.
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Switching Interview

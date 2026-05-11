@@ -5,6 +5,10 @@ description: >
   type, rebase branches on main, fix mechanical CI failures, gate on the
   generalized approval signal (`<phase>:approved` label or APPROVED review),
   and merge PRs that pass all gates. Sole external merge point.
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Release Merge

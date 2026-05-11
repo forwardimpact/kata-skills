@@ -1,11 +1,33 @@
 # Kata Skills
 
-Agent skills for the [Forward Impact](https://forwardimpact.team)
-Kata Agent Team. Install with
-[npx skills](https://github.com/vercel-labs/skills):
+Agents and skills for the [Forward Impact](https://forwardimpact.team)
+Kata Agent Team.
+
+## Install
+
+With [npx skills](https://github.com/vercel-labs/skills):
 
 ```bash
 npx skills add forwardimpact/kata-skills
+```
+
+With [APM](https://microsoft.github.io/apm/), add to your `apm.yml`:
+
+```yaml
+dependencies:
+  apm:
+    - forwardimpact/kata-skills
+```
+
+Then `apm install` deploys the skills and agents to your active client
+(Claude Code, Copilot, Cursor, OpenCode, Codex, or Gemini). To pull a single
+primitive, reference it by path:
+
+```yaml
+dependencies:
+  apm:
+    - forwardimpact/kata-skills/skills/kata-spec
+    - forwardimpact/kata-skills/agents/release-engineer.agent.md
 ```
 
 ## Available Skills
@@ -28,3 +50,13 @@ npx skills add forwardimpact/kata-skills
 | **kata-setup** | Set up the Kata Agent Team in your repository. Walks through GitHub App creation, secret configuration, agent selection, and generates workflow files. Use when setting up a new Kata installation or adding agents to an existing one. |
 | **kata-spec** | Write specifications (WHAT/WHY) for features, changes, and improvements. Spec is approved when its PR carries the `spec:approved` label or an APPROVED review by a trusted account. Use when proposing changes, capturing findings as actionable specs, or evaluating spec quality. Pair with the `kata-plan` skill for the HOW side. |
 | **kata-wiki-curate** | Curate the wiki (agent memory) for cross-team collaboration. Verify summary accuracy against weekly logs, follow up on stale teammate observations, update MEMORY.md, and clean log hygiene. Use when running scheduled wiki curation, auditing agent memory health, or checking cross-agent communication. |
+
+## Available Agents
+
+| Agent | Description |
+| --- | --- |
+| **improvement-coach** | Continuous improvement coach. Dispatches 1-on-1 coaching sessions with domain agents, facilitates team storyboard meetings, and drives the Toyota Kata five-question protocol. |
+| **product-manager** | Repository product manager. Triages open issues against the product vision, reviews spec quality, and writes specs for product-aligned requests. Spec quality is signaled to the merge gate via the `spec:approved` PR label. |
+| **release-engineer** | Repository release engineer. Verifies contributor trust, gates PRs into main via `kata-release-merge`, cuts releases via `kata-release-cut`, and facilitates `agent-react` dispatch. Sole external merge point. |
+| **security-engineer** | Repository security engineer. Applies security updates, triages Dependabot pull requests, audits supply chain and application security, and enforces dependency and CI policies. |
+| **technical-writer** | Repository technical writer. Reviews documentation for accuracy and staleness, curates agent memory for cross-team collaboration, and ensures the wiki remains a reliable coordination mechanism. |

@@ -6,6 +6,10 @@ description: >
   enough that ad-hoc per-item handling is reinventing the same moves.
   Improvement-coach scope extension — produces a `kata-spec`, a `kata-design`,
   and a corpus map that closes the loop on the items that fed it.
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Pattern Synthesis from Backlog

@@ -6,6 +6,10 @@ description: >
   runs write or update pages following documentation standards. Use when
   writing, editing, auditing, or reviewing documentation, or running scheduled
   documentation review.
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Documentation

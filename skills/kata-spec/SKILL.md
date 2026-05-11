@@ -6,6 +6,10 @@ description: >
   APPROVED review by a trusted account. Use when proposing changes, capturing
   findings as actionable specs, or evaluating spec quality. Pair with the
   `kata-plan` skill for the HOW side.
+license: Apache-2.0
+metadata:
+  version: "1.0.0"
+  author: forwardimpact
 ---
 
 # Write and Review Specs
