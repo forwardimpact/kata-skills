@@ -9,7 +9,7 @@ description: >
   there by a human signal that `agent-react` or the active agent propagates.
 license: Apache-2.0
 metadata:
-  version: "0.1.1"
+  version: "0.1.2"
   author: forwardimpact
 ---
 

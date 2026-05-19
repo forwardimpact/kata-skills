@@ -8,7 +8,7 @@ description: >
   after a clean panel review (plans may be approved by agents).
 license: Apache-2.0
 metadata:
-  version: "0.1.1"
+  version: "0.1.2"
   author: forwardimpact
 ---
 
