@@ -47,7 +47,9 @@ modes of operation:
 - [ ] Audience purity confirmed (no audience mixing).
 - [ ] Source of truth consulted and docs match current code.
 - [ ] All cross-links resolve.
-- [ ] `bunx fit-doc build` succeeds.
+- [ ] `bunx fit-doc build --src=websites/fit --out=dist` succeeds (substitute
+      the `websites/<site>` path you touched — `coaligned`, `kata`, or
+      `monorepo`).
 - [ ] Terminology matches conventions in `references/standards.md`.
 
 </do_confirm_checklist>
@@ -58,18 +60,18 @@ Each run covers **one topic** in depth.
 
 ### Topic areas
 
-| Topic                    | What to review                                                                        |
-| ------------------------ | ------------------------------------------------------------------------------------- |
-| `getting-started`        | `websites/docs/getting-started/` — onboarding accuracy, CLI examples                  |
-| `products`               | `websites/docs/products/` — product-task accuracy, audience purity, completeness      |
-| `libraries`              | `websites/docs/libraries/` — library-task accuracy, audience purity, completeness     |
-| `services`               | `websites/docs/services/` — service-task accuracy, audience purity, completeness      |
-| `reference`              | `websites/docs/reference/` — CLI synopsis, entity definitions, schema                 |
-| `internals`              | `websites/docs/internals/` — architecture accuracy, code path validity                |
-| `product-pages`          | Product overview pages under `websites/` — overviews                                  |
-| `root-docs`              | `CLAUDE.md`, `CONTRIBUTING.md`, `KATA.md`, `SECURITY.md`                              |
-| `llms-txt-and-seo`       | `websites/llms.txt`, `websites/robots.txt`, sitemap completeness                      |
-| `cross-page-consistency` | Terminology, proficiency scales, field names across all pages                         |
+| Topic                    | What to review                                                                            |
+| ------------------------ | ----------------------------------------------------------------------------------------- |
+| `getting-started`        | `websites/fit/docs/getting-started/` — onboarding accuracy, CLI examples                  |
+| `products`               | `websites/fit/docs/products/` — product-task accuracy, audience purity, completeness      |
+| `libraries`              | `websites/fit/docs/libraries/` — library-task accuracy, audience purity, completeness     |
+| `services`               | `websites/fit/docs/services/` — service-task accuracy, audience purity, completeness     |
+| `reference`              | `websites/fit/docs/reference/` — CLI synopsis, entity definitions, schema                 |
+| `internals`              | `websites/fit/docs/internals/` — architecture accuracy, code path validity                |
+| `product-pages`          | Product overview pages under `websites/fit/` — overviews                                  |
+| `root-docs`              | `CLAUDE.md`, `CONTRIBUTING.md`, `KATA.md`, `SECURITY.md`                                  |
+| `llms-txt-and-seo`       | `websites/<site>/llms.txt`, `websites/<site>/robots.txt`, sitemap completeness            |
+| `cross-page-consistency` | Terminology, proficiency scales, field names across all pages                             |
 
 ### Step 0: Read Memory
 
@@ -96,7 +98,8 @@ Read `wiki/MEMORY.md` then run `Bash: fit-wiki boot` (per [Memory Protocol § On
 5. Run CLI examples shown in docs, verify output matches.
 6. Check YAML examples against the product's JSON schema directory.
 7. Verify all internal cross-links resolve.
-8. Run `bunx fit-doc build` to confirm build.
+8. Run `bunx fit-doc build --src=websites/fit --out=dist` (or the matching
+   `websites/<site>` path) to confirm build.
 9. Check `git log --oneline -20 -- <paths>` for recent code changes that may
    have invalidated docs.
 
@@ -123,7 +126,8 @@ Run the DO-CONFIRM checklist at the top of this skill.
    entity names against `data/pathway/`.
 6. **Add cross-links.** Guides → Reference for details. Getting Started → Guides
    for next steps. Internals → Reference for the user-facing model.
-7. **Build and check.** Run `bunx fit-doc build`.
+7. **Build and check.** Run `bunx fit-doc build --src=websites/fit --out=dist`
+   (or the matching `websites/<site>` path).
 
 ### Updating existing pages
 
