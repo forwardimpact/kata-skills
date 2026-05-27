@@ -5,29 +5,16 @@ Kata Agent Team.
 
 ## Install
 
+With [APM](https://microsoft.github.io/apm/):
+
+```bash
+apm install forwardimpact/kata-skills
+```
+
 With [npx skills](https://github.com/vercel-labs/skills):
 
 ```bash
 npx skills add forwardimpact/kata-skills
-```
-
-With [APM](https://microsoft.github.io/apm/), add to your `apm.yml`:
-
-```yaml
-dependencies:
-  apm:
-    - forwardimpact/kata-skills
-```
-
-Then `apm install` deploys the skills and agents to your active
-client (Claude Code, Copilot, Cursor, OpenCode, Codex, or Gemini).
-To pull a single primitive, reference it by path:
-
-```yaml
-dependencies:
-  apm:
-    - forwardimpact/kata-skills/skills/kata-spec
-    - forwardimpact/kata-skills/agents/release-engineer.agent.md
 ```
 
 ## Available Skills
