@@ -1,7 +1,6 @@
 # Kata Skills
 
-Agents and skills for the [Forward Impact](https://forwardimpact.team)
-Kata Agent Team.
+Agents and skills for the [Forward Impact](https://forwardimpact.team) Kata Agent Team.
 
 ## Install
 
