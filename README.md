@@ -10,12 +10,6 @@ With [APM](https://microsoft.github.io/apm/):
 apm install forwardimpact/kata-skills
 ```
 
-With [npx skills](https://github.com/vercel-labs/skills):
-
-```bash
-npx skills add forwardimpact/kata-skills
-```
-
 ## Available Skills
 
 | Skill | Description |
