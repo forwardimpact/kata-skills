@@ -75,7 +75,7 @@ jobs:
           TRACE_FILE: ${{ steps.agent.outputs.trace-file }}
         run: |
           if [ -n "${TRACE_FILE:-}" ] && [ -f "$TRACE_FILE" ]; then
-            npx fit-trace cost "$TRACE_FILE" --markdown >> "$GITHUB_STEP_SUMMARY"
+            fit-trace cost "$TRACE_FILE" --markdown >> "$GITHUB_STEP_SUMMARY"
           else
             echo "No trace file produced — cost not reported."
           fi
@@ -114,7 +114,7 @@ The self-hosted template with three changes (the **canonical** hosted recipe oth
 ## Resolving Action Refs
 
 Pin published actions to an immutable SHA, never the mutable `v1` tag. List tags
-with `gh api repos/forwardimpact/kata-agent/tags` (`.../fit-eval/tags`,
+with `gh api repos/forwardimpact/kata-agent/tags` (`.../fit-harness/tags`,
 `.../fit-wiki/tags` for the refs in `workflow-dispatch.md`), pick the highest
 `vX.Y.Z`, and emit `<full-40-char-sha> # <tag>`. If resolution fails, stop and ask;
 pair the pins with the `github-actions` Dependabot config (`SKILL.md` Step 2).
