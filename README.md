@@ -41,3 +41,12 @@ apm install forwardimpact/kata-skills
 | **security-engineer** | Repository security engineer. Applies security updates, triages Dependabot pull requests, audits supply chain and application security, and enforces dependency and CI policies. |
 | **staff-engineer** | Repository staff engineer. Owns the full spec → design → plan → implement arc for approved specs: turns spec.md into an architectural design, then an execution-ready plan, then executes the plan step by step. |
 | **technical-writer** | Repository technical writer. Reviews documentation for accuracy and staleness, curates agent memory for cross-team collaboration, and ensures the wiki remains a reliable coordination mechanism. |
+| **x-approval-signals** |  |
+| **x-auth-anomaly** |  |
+| **x-carry-forward-clearance** |  |
+| **x-citation-integrity** |  |
+| **x-coordination-protocol** |  |
+| **x-memory-protocol** |  |
+| **x-self-improvement** |  |
+| **x-work-definition** |  |
+| **x-work-trackers** |  |
