@@ -6,7 +6,7 @@ description: >
   publish workflows. Canonical source for the release procedure.
 license: Apache-2.0
 metadata:
-  version: "0.1.12"
+  version: "0.1.13"
   author: forwardimpact
 ---
 
