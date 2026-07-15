@@ -8,7 +8,7 @@ description: >
   reinventing the same moves. Improvement-coach scope extension.
 license: Apache-2.0
 metadata:
-  version: "0.1.19"
+  version: "0.1.20"
   author: forwardimpact
 ---
 
