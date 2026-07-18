@@ -8,7 +8,7 @@ description: >
   agent memory health, or checking cross-agent communication.
 license: Apache-2.0
 metadata:
-  version: "0.1.21"
+  version: "0.1.22"
   author: forwardimpact
 ---
 
