@@ -9,7 +9,7 @@ description: >
   there by a human signal that `kata-dispatch` or the active agent propagates.
 license: Apache-2.0
 metadata:
-  version: "0.1.22"
+  version: "0.1.23"
   author: forwardimpact
 ---
 
