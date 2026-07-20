@@ -42,8 +42,8 @@ skill only for the full Participant Protocol below.
       [`references/one-on-one.md`](references/one-on-one.md)) and follow its
       artifact guidance.
 - [ ] Pick metrics CSVs from `wiki/metrics/` for participants to report.
-      Participants — not the facilitator — run `fit-xmr analyze`.
-- [ ] Team runs: `fit-wiki refresh` creates the storyboard and renders all
+      Participants — not the facilitator — run `gemba-xmr analyze`.
+- [ ] Team runs: `gemba-wiki refresh` creates the storyboard and renders all
       blocks before the meeting; a participant seeds any missing
       `<!-- xmr:... -->` marker from
       [`storyboard-template.md`](references/storyboard-template.md), never the
@@ -80,7 +80,7 @@ skill only for the full Participant Protocol below.
 
 - [ ] Q2 data gathered from live sources, not memory or prior logs.
 - [ ] Domain metrics appended to CSV before answering (step 2), and
-      `fit-xmr analyze` run on own CSV(s) with `status`/`μ`/`signals`
+      `gemba-xmr analyze` run on own CSV(s) with `status`/`μ`/`signals`
       reported via `Answer`.
 - [ ] Metrics reported via `Answer` match the CSV rows just written.
 - [ ] Q3 obstacle meets its definition (see
@@ -127,7 +127,7 @@ mode-specific question wording (team vs. 1-on-1) lives in the overlays.
    Team mode: broadcast once via `Announce` at session open. 1-on-1: prepend
    it to the Q1 `Ask` body.
 4. **Collect XmR analysis from participants.** Participants run
-   `fit-xmr analyze` on their own CSVs (Participant Protocol step 2) and
+   `gemba-xmr analyze` on their own CSVs (Participant Protocol step 2) and
    report `status`, fired-rule `signals`, and `latest` in their Q2 `Answer`. The
    facilitator has no `Bash` — it relays what they report, flagging any
    `insufficient_data` metric.
@@ -169,12 +169,12 @@ Applies in both modes; expands the coach's session-open briefing.
 2. **Record metrics to CSV and analyze them.** Before answering, append one row
    per metric to `wiki/metrics/{skill}/{YYYY}.csv` per the skill's
    `references/metrics.md`, creating the directory and header if needed. Then
-   run `fit-xmr analyze <csv> --format json`. The CSV is authoritative; your
+   run `gemba-xmr analyze <csv> --format json`. The CSV is authoritative; your
    `Answer` summarizes it.
 3. **Answer with measured data.** Report numbers via
    `Answer(askId=N, message=…)`, quoting the `askId` from the `[ask#N]` header.
    Reference the CSV rows; include each metric's XmR `status`, `μ`, and any
-   fired-rule `signals` from your `fit-xmr analyze` run. Use counts and
+   fired-rule `signals` from your `gemba-xmr analyze` run. Use counts and
    durations — not narratives like "improving." Use `Announce` only for
    team-wide context.
 4. **Identify obstacles, then record them.** For Q3, each participant names the
