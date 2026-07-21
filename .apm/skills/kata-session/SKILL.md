@@ -8,7 +8,7 @@ description: >
   guidance lives in references/team-storyboard.md and references/one-on-one.md.
 license: Apache-2.0
 metadata:
-  version: "0.3.1"
+  version: "0.3.2"
   author: forwardimpact
 ---
 
