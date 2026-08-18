@@ -7,7 +7,7 @@ description: >
   handles PR mergeability.
 license: Apache-2.0
 metadata:
-  version: "0.3.2"
+  version: "0.3.3"
   author: forwardimpact
 ---
 
