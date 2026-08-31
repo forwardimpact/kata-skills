@@ -8,7 +8,7 @@ description: >
   prevents recursion in the spec/design/plan/implement review loop.
 license: Apache-2.0
 metadata:
-  version: "0.3.3"
+  version: "0.3.4"
   author: forwardimpact
 ---
 

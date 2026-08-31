@@ -7,7 +7,7 @@ description: >
   impact, audit the repo posture, or investigate a reported vulnerability.
 license: Apache-2.0
 metadata:
-  version: "0.3.3"
+  version: "0.3.4"
   author: forwardimpact
 ---
 
