@@ -7,7 +7,7 @@ description: >
   plan NNN", "build spec NNN", "start implementation of NNN".
 license: Apache-2.0
 metadata:
-  version: "0.3.4"
+  version: "0.3.5"
   author: forwardimpact
 ---
 

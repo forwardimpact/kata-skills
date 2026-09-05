@@ -8,7 +8,7 @@ description: >
   invocation.
 license: Apache-2.0
 metadata:
-  version: "0.3.4"
+  version: "0.3.5"
   author: forwardimpact
 ---
 
