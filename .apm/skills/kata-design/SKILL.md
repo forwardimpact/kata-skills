@@ -10,7 +10,7 @@ description: >
   propagates it.
 license: Apache-2.0
 metadata:
-  version: "0.3.7"
+  version: "0.3.8"
   author: forwardimpact
 ---
 
